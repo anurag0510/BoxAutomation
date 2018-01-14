@@ -1,5 +1,0 @@
-{
-"records" : [
-{"objectProps":{"OTYPE":"TEST","GN":"mfcgroup","TN":1,"CFN":1,"SNID":1,"PQNAME":"com.testcases.BoxFolderRelatedTestCases","PNAME":"com.testcases","MIN":1,"CIN":1,"TTIME":"NOT_SET","ETSTAMP":"NOT_SET","SN":"msession","TID":"S-msession|n-1-node1|T-1|G-node1-1-mfcgroup|Sl-1-CT-1|C-com.testcases.BoxFolderRelatedTestCases-CIT-1|T-1|IF-1|CrT-1|updateMetaDataForFolderByAddField-CrIT1|TT1","NNAME":"node1","NID":1,"ONAME":"Test","NAME":"updateMetaDataForFolderByAddField","BTSTAMP":1515585049983,"CNAME":"BoxFolderRelatedTestCases","MNAME":"updateMetaDataForFolderByAddField"},"testProps":{"ID":"NOT_SET","IDEA":"NOT_SET","NAME":"NOT_SET","PRIORITY":1},"attr":{},"execVars":{},"dataRecord":{},"resultProps":{"FIXTURE_TYPE":"SETUP_TEST","RESULT":"SUCCESS","FIXTURE_METHOD":"setUpEnvirnoment","EXEC_POINT":"Once before Test Class [com.testcases.BoxFolderRelatedTestCases.updateMetaDataForFolderByAddField], Instance [1], Fragment [1], Method [updateMetaDataForFolderByAddField], Method Instance [1], Test [1]","ISSUE_ID":"NA"}}
-]
-}
