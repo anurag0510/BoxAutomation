@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/lib/java/testmile-arjuna-1.0.0-b.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/groovy-all-2.4.12.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/json-schema-validator-2.2.6.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/json-path-3.0.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/json-schema-validator-3.0.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/rest-assured-3.0.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/xml-path-3.0.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/json-schema-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/jackson-coreutils-1.8.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/jackson-databind-2.2.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/jackson-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/msg-simple-0.9.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/jackson-annotations-2.2.3.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/guava-15.0-rc1.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/joda-time-2.9.9.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/javax.mail-api-1.4.5.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/guava-23.6-jre.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/libphonenumber-8.8.9.jar"/>
+	<classpathentry kind="lib" path="testmile-arjuna-1.0.0-b/testmile-arjuna/bin/ext/java/uri-template-0.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

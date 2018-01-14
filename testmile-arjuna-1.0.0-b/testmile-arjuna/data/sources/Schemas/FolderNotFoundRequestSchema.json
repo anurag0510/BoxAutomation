@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "required":false
+    },
+    "status": {
+      "type": "number",
+      "required":false
+    },
+    "code": {
+      "type": "string",
+      "required":false
+    },
+    "context_info": {
+      "type": "object",
+      "properties": {
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reason": {
+                "type": "string",
+                "required":false
+              },
+              "name": {
+                "type": "string",
+                "required":false
+              },
+              "message": {
+                "type": "string",
+                "required":false
+              }
+            }
+          }
+        }
+      }
+    },
+    "help_url": {
+      "type": "string",
+      "required":false
+    },
+    "message": {
+      "type": "string",
+      "required":false
+    },
+    "request_id": {
+      "type": "string",
+	  "required":false
+    }
+  }
+}

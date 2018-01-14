@@ -1,0 +1,249 @@
+{
+	"type":"object",
+	"$schema": "http://json-schema.org/draft-03/schema",
+	"required":false,
+	"properties":{
+		"content_created_at": {
+			"type":"string",
+			"required":false
+		},
+		"content_modified_at": {
+			"type":"string",
+			"required":false
+		},
+		"created_at": {
+			"type":"string",
+			"required":false
+		},
+		"created_by": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"id": {
+					"type":"string",
+					"required":false
+				},
+				"login": {
+					"type":"string",
+					"required":false
+				},
+				"name": {
+					"type":"string",
+					"required":false
+				},
+				"type": {
+					"type":"string",
+					"required":false
+				}
+			}
+		},
+		"description": {
+			"type":"string",
+			"required":false
+		},
+		"etag": {
+			"type":"string",
+			"required":false
+		},
+		"folder_upload_email": {
+			"type":["null","string"],
+			"required":false
+		},
+		"id": {
+			"type":"string",
+			"required":false
+		},
+		"item_collection": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"entries": {
+					"type":"array",
+					"required":false
+				},
+				"limit": {
+					"type":"number",
+					"required":false
+				},
+				"offset": {
+					"type":"number",
+					"required":false
+				},
+				"order": {
+					"type":"array",
+					"required":false,
+					"items":
+						{
+							"type":"object",
+							"required":false,
+							"properties":{
+								"by": {
+									"type":"string",
+									"required":false
+								},
+								"direction": {
+									"type":"string",
+									"required":false
+								}
+							}
+						}
+					
+
+				},
+				"total_count": {
+					"type":"number",
+					"required":false
+				}
+			}
+		},
+		"item_status": {
+			"type":"string",
+			"required":false
+		},
+		"modified_at": {
+			"type":"string",
+			"required":false
+		},
+		"modified_by": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"id": {
+					"type":"string",
+					"required":false
+				},
+				"login": {
+					"type":"string",
+					"required":false
+				},
+				"name": {
+					"type":"string",
+					"required":false
+				},
+				"type": {
+					"type":"string",
+					"required":false
+				}
+			}
+		},
+		"name": {
+			"type":"string",
+			"required":false
+		},
+		"owned_by": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"id": {
+					"type":"string",
+					"required":false
+				},
+				"login": {
+					"type":"string",
+					"required":false
+				},
+				"name": {
+					"type":"string",
+					"required":false
+				},
+				"type": {
+					"type":"string",
+					"required":false
+				}
+			}
+		},
+		"parent": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"etag": {
+					"type":["null","string"],
+					"required":false
+				},
+				"id": {
+					"type":"string",
+					"required":false
+				},
+				"name": {
+					"type":"string",
+					"required":false
+				},
+				"sequence_id": {
+					"type":["null","string"],
+					"required":false
+				},
+				"type": {
+					"type":"string",
+					"required":false
+				}
+			}
+		},
+		"path_collection": {
+			"type":"object",
+			"required":false,
+			"properties":{
+				"entries": {
+					"type":"array",
+					"required":false,
+					"items":
+						{
+							"type":"object",
+							"required":false,
+							"properties":{
+								"etag": {
+									"type":["null","string"],
+									"required":false
+								},
+								"id": {
+									"type":"string",
+									"required":false
+								},
+								"name": {
+									"type":"string",
+									"required":false
+								},
+								"sequence_id": {
+									"type":["null","string"],
+									"required":false
+								},
+								"type": {
+									"type":"string",
+									"required":false
+								}
+							}
+						}
+					
+
+				},
+				"total_count": {
+					"type":"number",
+					"required":false
+				}
+			}
+		},
+		"purged_at": {
+			"type":["null","string"],
+			"required":false
+		},
+		"sequence_id": {
+			"type":"string",
+			"required":false
+		},
+		"shared_link": {
+			"type":["null","string"],
+			"required":false
+		},
+		"size": {
+			"type":"number",
+			"required":false
+		},
+		"trashed_at": {
+			"type":["null","string"],
+			"required":false
+		},
+		"type": {
+			"type":"string",
+			"required":false
+		}
+	}
+}

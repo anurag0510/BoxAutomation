@@ -1,0 +1,350 @@
+[DEBUG]	2018-01-12|18:00:18	(ArjunaInternal.java:223)	Setting up Test Engine
+[DEBUG]	2018-01-12|18:00:18	(ArjunaInternal.java:11313)	Running Test Engine
+[DEBUG]	2018-01-12|18:00:18	(ArjunaTestEngine.java:80)	Create Test Runner - Start
+[DEBUG]	2018-01-12|18:00:18	(ArjunaTestEngine.java:81)	Create Test Reporter - Start
+[DEBUG]	2018-01-12|18:00:18	(ArjunaTestEngine.java:109)	Create Test Reporter - Finish
+[DEBUG]	2018-01-12|18:00:18	(ArjunaTestEngine.java:110)	Create Test Runner - Finish
+[DEBUG]	2018-01-12|18:00:18	(ArjunaInternal.java:12280)	Loading test definitions...
+[DEBUG]	2018-01-12|18:00:18	(ArjunaInternal.java:12374)	Loading session...
+[DEBUG]	2018-01-12|18:00:18	(PickerConfigForCLI.java:24)	Configuring picker: {PACKAGE_NAME=com.testcases, CLASS_NAME=BoxFolderRelatedTestCases}
+[DEBUG]	2018-01-12|18:00:18	(BaseSessionSubNode.java:3074)	Picker Type for CLI Options: qc
+[DEBUG]	2018-01-12|18:00:18	(BaseSession.java:43)	msession: Scheduling nodes
+[DEBUG]	2018-01-12|18:00:18	(BaseSession.java:45)	Session Node: node1
+[DEBUG]	2018-01-12|18:00:18	(BaseGroup.java:47)	mfcgroup: Loading containers
+[DEBUG]	2018-01-12|18:00:18	(JavaTestClassGroupScheduler.java:32)	[com.testcases.BoxFilesRelatedTestCases, com.testcases.BoxFolderRelatedTestCases]
+[DEBUG]	2018-01-12|18:00:18	(JavaTestClassGroupScheduler.java:33)	mfcgroup:qf: Picking containers
+[DEBUG]	2018-01-12|18:00:18	(JavaTestClassGroupScheduler.java:36)	mfcgroup: Looping over pickers...
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:344)	Group: mfcgroup, Evaluating: com.testcases.BoxFilesRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:346)	Check package name: com.testcases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:351)	Check class name: BoxFilesRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:297)	Target Object Name String: BoxFilesRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:298)	Ignore Pattern: null
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:299)	Consider Pattern: [NONRX::BoxFolderRelatedTestCases]
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:313)	Check consider pattern match.
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:315)	NONRX::BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:344)	Group: mfcgroup, Evaluating: com.testcases.BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:346)	Check package name: com.testcases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:351)	Check class name: BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:297)	Target Object Name String: BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:298)	Ignore Pattern: null
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:299)	Consider Pattern: [NONRX::BoxFolderRelatedTestCases]
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:313)	Check consider pattern match.
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:315)	NONRX::BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:356)	Group: mfcgroup, Including: com.testcases.BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:360)	[copyFolderWithUpdatedName, createMetaDataForFolder, deleteMetaDataForFolder, moveFolder, renameFolder, testCopyFolder, testCreateFolder, testDeleteFolder, updateFolderDescription, updateMetaDataForFolderByAddField, updateMetaDataForFolderByRemoveField, updateMetaDataForFolderByReplaceField, updateMetaDataForFolderByTestField]
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: copyFolderWithUpdatedName
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: copyFolderWithUpdatedName
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: createMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: createMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: deleteMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: deleteMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: moveFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: moveFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: renameFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: renameFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: testCopyFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: testCopyFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: testCreateFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: testCreateFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: testDeleteFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: testDeleteFolder
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: updateFolderDescription
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: updateFolderDescription
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: updateMetaDataForFolderByAddField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: updateMetaDataForFolderByAddField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: updateMetaDataForFolderByRemoveField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: updateMetaDataForFolderByRemoveField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: updateMetaDataForFolderByReplaceField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: updateMetaDataForFolderByReplaceField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:363)	Group: mfcgroup, Evaluating: updateMetaDataForFolderByTestField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:366)	Group: mfcgroup, Including: updateMetaDataForFolderByTestField
+[DEBUG]	2018-01-12|18:00:18	(AbstractPickerConfig.java:13286)	Mark Class Def picked: com.testcases.BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(TestDefinitionsDB.java:8292)	Mark Class Def Unpicked: com.testcases.BoxFilesRelatedTestCases
+[DEBUG]	2018-01-12|18:00:18	(BaseSession.java:34)	msession: Loading nodes
+[DEBUG]	2018-01-12|18:00:18	(BaseSession.java:36)	Session Node: node1
+[DEBUG]	2018-01-12|18:00:18	(ArjunaInternal.java:12402)	Running Test Engine
+[DEBUG]	2018-01-12|18:00:18	(ArjunaTestEngine.java:209)	------------ RUN: START -----------------
+[DEBUG]	2018-01-12|18:00:18	(TestSessionRunner.java:61)	Session: msession, Session Node: node1:: Creating Thread
+[DEBUG]	2018-01-12|18:00:18	(TestSessionNodeRunner.java:23)	Session Node: node1:: Run begin
+[DEBUG]	2018-01-12|18:00:18	(TestSessionNodeRunner.java:31)	Session Node: node1:: Thread Count: 1
+[DEBUG]	2018-01-12|18:00:18	(TestSessionSubNodeRunner.java:41)	Session Node node1 started.
+[DEBUG]	2018-01-12|18:00:18	(TestSessionSubNodeSlotsRunner.java:40)	Session Sub Node node1-1-mfcgroup started.
+[INFO ]	2018-01-12|18:00:18	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:00:22	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer iLHkCk5O3Sz2Iyyj5ZiHlHmG5owuYUST
+[INFO ]	2018-01-12|18:00:22	(BoxFolderRelatedTestCases.java:139)	!!!!!!!!!!!!!!!Starting copy folder with different name test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:00:22	(BoxFolderRelatedTestCases.java:143)	copy folder : 59780b1 to folder : 6a1fc78 with name : 822a90e
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Method                             | copyFolderWithUpdatedName
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Time (seconds)                     | 16.394
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:00:35	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:00:35	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:00:36	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer vJaCls3zh4m3KwqEG0MbcCbUbWIwRm3E
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Method                             | createMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Time (seconds)                     | 8.871
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:00:44	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:00:44	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:00:45	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer Fmwar7zlnkpOwOUChpn67ATZRSTc248z
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Method                             | deleteMetaDataForFolder
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Time (seconds)                     | 12.084
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:00:56	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:00:56	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:00	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer H4bncxQcS1LUjaG1oCNuRei7hB0w2zGO
+[INFO ]	2018-01-12|18:01:00	(BoxFolderRelatedTestCases.java:80)	!!!!!!!!!!!!!!!Starting folder move test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:00	(BoxFolderRelatedTestCases.java:83)	move folder : 156da00to folder : ee1b42a
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Method                             | moveFolder
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Time (seconds)                     | 14.831
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:01:11	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:01:11	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:12	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer 0XIfsbz5Lqd1FNI3XYX5E2ggcuBwb60w
+[INFO ]	2018-01-12|18:01:12	(BoxFolderRelatedTestCases.java:60)	!!!!!!!!!!!!!!!Starting folder rename test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:12	(BoxFolderRelatedTestCases.java:63)	folder name : 67f6be1to be renamed to : 1cdebe0
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Method                             | renameFolder
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Time (seconds)                     | 10.415
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:01:21	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:01:21	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:23	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer qk1o6DMsyjyn4wkwHu1Mw8VWVSpOiyiW
+[INFO ]	2018-01-12|18:01:23	(BoxFolderRelatedTestCases.java:118)	!!!!!!!!!!!!!!!Starting copy folder test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:23	(BoxFolderRelatedTestCases.java:121)	copy folder : dbf482d to folder : eb8d6b3
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Method                             | testCopyFolder
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Time (seconds)                     | 12.687
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:01:34	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:01:34	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:36	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer fLqFfuoSH9ZxO8ywKcBPj79K11vEls9J
+[INFO ]	2018-01-12|18:01:36	(BoxFolderRelatedTestCases.java:30)	!!!!!!!!!!!!!!!Starting folder creation test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:36	(BoxFolderRelatedTestCases.java:32)	Folder with name to be created :66de7a2
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Method                             | testCreateFolder
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Time (seconds)                     | 7.206
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:01:41	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:01:41	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:43	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer dTc46OvPiVbEfr7lTI9qeeRakkZQLN3Y
+[INFO ]	2018-01-12|18:01:43	(BoxFolderRelatedTestCases.java:43)	!!!!!!!!!!!!!!!Starting folder deletion test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:43	(BoxFolderRelatedTestCases.java:46)	Folder with name to be deleted :855c0ca
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Method                             | testDeleteFolder
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Time (seconds)                     | 9.046
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:01:50	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:01:50	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:01:52	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer bRzLCe7IMuCNtAfga5wndl4sKnY9A409
+[INFO ]	2018-01-12|18:01:52	(BoxFolderRelatedTestCases.java:101)	!!!!!!!!!!!!!!!Starting change folder description test!!!!!!!!!!!!!!!!!
+[INFO ]	2018-01-12|18:01:52	(BoxFolderRelatedTestCases.java:104)	changing folder : 49afe2bdescription to : c7ab215
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Method                             | updateFolderDescription
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Time (seconds)                     | 11.777
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:02:02	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:02:02	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:02:04	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer CwEZuDf2cK5BKeIfvoQgMviuoAXfoNQ1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Method                             | updateMetaDataForFolderByAddField
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Time (seconds)                     | 10.778
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:02:13	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:02:13	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:02:14	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer D6gbyzHqXFNaIQGWtVvCFZYFetViXJcn
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Method                             | updateMetaDataForFolderByRemoveField
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Time (seconds)                     | 11.912
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:02:24	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:02:24	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:02:26	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer kRyr3L2hiCU7pEQTGPGuLZnkyjeIvwVh
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Method                             | updateMetaDataForFolderByReplaceField
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Time (seconds)                     | 12.208
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:02:37	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[INFO ]	2018-01-12|18:02:37	(BoxFolderRelatedTestCases.java:23)	Generate access token.
+[INFO ]	2018-01-12|18:02:39	(BoxFolderRelatedTestCases.java:25)	Generated access token is : Bearer YiWXvyz9Jbhh9w09HtY7n4kgvH6KIwdE
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Session Node Name                       | node1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Session Sub Node Number                 | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Group Name                         | mfcgroup
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Package                            | com.testcases
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Class                              | BoxFolderRelatedTestCases
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Class Instance Number              | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Class Instance Fragment Number     | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Method                             | updateMetaDataForFolderByTestField
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Method Instance Number             | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Number                             | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Time (seconds)                     | 11.006
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Priority                           | 1
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2018-01-12|18:02:48	(TestSessionSubNodeSlotsRunner.java:45)	Session Sub Node node1-1-mfcgroup finished.
+[DEBUG]	2018-01-12|18:02:48	(TestSessionSubNodeRunner.java:60)	Session Node node1 finished.
+[DEBUG]	2018-01-12|18:02:48	(TestSessionNodeRunner.java:60)	Session Node: node1:: Run end
+[DEBUG]	2018-01-12|18:02:48	(TestSessionRunner.java:54)	Session msession finished.
+[DEBUG]	2018-01-12|18:02:48	(DefaultReporter.java:131)	Tear Down - Begin
+[DEBUG]	2018-01-12|18:02:48	(DefaultReporter.java:132)	Tear Down - All Notifiers
+[DEBUG]	2018-01-12|18:02:48	(DefaultReporter.java:153)	Tear Down - Finish
+[DEBUG]	2018-01-12|18:02:48	(ArjunaTestEngine.java:223)	------------ RUN: FINISH -----------------
+[DEBUG]	2018-01-12|18:02:48	(ArjunaInternal.java:13344)	Generating reports
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2018-01-12|18:02:48	(ExcelReportGenerator.java:161)	Tear Down - Finish
+[DEBUG]	2018-01-12|18:02:48	(ArjunaInternal.java:244)	Tearing down Test Engine
+[DEBUG]	2018-01-12|18:02:48	(Console.java:28)	All Done. Exiting.
